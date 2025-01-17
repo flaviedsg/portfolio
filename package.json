@@ -23,7 +23,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SofiDevO/portfolio-astrosofidev-garrux.git"
+    "url": "git+https://github.com/flaviedsg/portfolio.git"
   },
   "keywords": [
     "astro",
@@ -35,10 +35,10 @@
     "css",
     "tailwind"
   ],
-  "author": "SofiDev / Garrux",
+  "author": "flavie ",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SofiDevO/portfolio-astrosofidev-garrux/issues"
+    "url": "https://github.com/flaviedsg/portfolio.git"
   },
-  "homepage": "https://github.com/SofiDevO/portfolio-astrosofidev-garrux#readme"
+  "homepage": "https://github.com/flaviedsg/portfolio.git#readme"
 }

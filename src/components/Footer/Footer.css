@@ -28,3 +28,11 @@ footer {
     font-size: var(--text-large);
 
 }
+
+footer.icon__container{
+    display: flex;
+    gap: 1rem;
+    font-size: var(--text-large);
+   
+    
+}
