@@ -140,11 +140,11 @@ You can view and edit the design of this template on Figma. Here is the [Figma d
 
 ## Bugs and Issues
 
-If you encounter any bugs or have issues, please report them [here](https://github.com/SofiDevO/portfolio-astrosofidev-garrux/issues).
+If you encounter any bugs or have issues, please report them [here](https://github.com/flaviedsg/portfolio.git).
 
 ## Homepage
 
-For more information and detailed documentation, visit the [homepage](https://github.com/SofiDevO/portfolio-astrosofidev-garrux#readme).
+For more information and detailed documentation, visit the [homepage](#readme).
 
 ---
 
