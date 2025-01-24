@@ -3,6 +3,7 @@ title: "L'Intelligence artificiel au seins de le SNCF"
 description: "Comment l'IA est utilisée au sesin de la SNCF ? Quels sont les outils ?"
 pubDate: '30 Septembre 2024'
 heroImage: "../img/monachina2.jpg"
+layout: "default"
 ---
 
 ### Comment l'IA est utilisée au sesin de la SNCF ? Quels sont les outils ?
