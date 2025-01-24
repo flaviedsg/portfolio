@@ -1,13 +1,13 @@
 ---
-title: "L'intélligene artifficelle aussi presente dans les autres pays ?"
-description: "Comment est-elle utilisée ? Est-elle plus devellopé qu'en France ?"
-pubDate: '10 Decembre 2024'
+title: "L'intelligence artificielle aussi présente dans les autres pays ?"
+description: "Comment est-elle utilisée ? Est-elle plus développée qu'en France ?"
+pubDate: 'Apr 08 2024'
 heroImage: "../img/paisaje.jpg"
-layout: "default"
+
 ---
 
+![image principale](/img/monachina.jpg)
 
+# Introduction à l'IA mondiale
 
-
-![javascript image](/img/monachina.jpg)
-
+L'intelligence artificielle connaît une croissance exponentielle à travers le monde. Dans cet article, nous explorons son utilisation dans différents pays...
