@@ -3,8 +3,8 @@ import './card-portfolio.css';
 const {
 	title,
 	descripcion,
+	tags,
 	imgSrc,
-	skills,
 	averageBrightness,
 } = Astro.props;
 ---
@@ -24,31 +24,11 @@ const {
 		<h2 class="card__title">{title}</h2>
 		<div class="descripcion">
 			<p>{descripcion}</p>
-
-			<div class="skills">
-				{
-					skills.map((skill) => (
-						<iconify-icon class="iconify" icon={skill} />
-					))
-				}
-				
+			<div class="tags">
+				{tags.map(tag => (
+					<span class="tag">{tag}</span>
+				))}
 			</div>
-
-			<!-- <div class="buttons">
-				<a href={repoURL}>
-					<span>
-						Github
-						{(<iconify-icon icon="quill:link-out" />)}
-					</span>
-				</a>
-
-				<a href={demoURL}>
-					<span>
-						Demo
-						{(<iconify-icon icon="quill:link-out" />)}
-					</span>
-				</a>
-			</div> -->
 		</div>
 	</div>
 </div>

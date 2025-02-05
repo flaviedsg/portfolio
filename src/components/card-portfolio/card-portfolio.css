@@ -1,6 +1,6 @@
 .card__portfolio {
-	width: 350px;
-	height: 280px;
+	width: 380px;
+	height: 350px;
 	overflow: hidden;
 	border-radius: 22px;
 	background: #000;
@@ -37,11 +37,11 @@
 
 .card__portfolio .descripcion__container .card__title {
 	position: relative; /* Le titre n'est plus en `absolute` */
-	margin-bottom: 10px; /* Ajout d'espace entre le titre et la description */
+	margin-bottom: 20px; /* Ajout d'espace entre le titre et la description */
 	font-size: var(--text-title);
 	font-weight: 500;
 	background: #0008;
-	padding: 8px 12px; /* Espacement intérieur pour améliorer la lisibilité */
+	padding: 20px 12px; /* Espacement intérieur pour améliorer la lisibilité */
 	border-radius: 8px;
 	z-index: 2;
 	transition-duration: 0.35s;
@@ -57,20 +57,20 @@
 	gap: 10px;
 }
 
+
 .card__portfolio .descripcion p {
 	font-size: var(--text-medium);
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	height: 20px;
 	transition: 0.35s height;
 }
 
 .card__portfolio:hover .descripcion p {
 	overflow: auto;
 	white-space: wrap;
-	height: 90px;
-	max-height: 90px;
+	height: auto;
+	
 }
 
 .card__portfolio .descripcion p::-webkit-scrollbar {
@@ -135,4 +135,19 @@
 
 .portfolio__container {
 	padding: 8rem;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tag {
+    background-color: #e0e0e0;
+    color: #333;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 1.25rem;
+	
 }

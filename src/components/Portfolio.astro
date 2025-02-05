@@ -6,7 +6,7 @@ import Card from './card-portfolio/CardPortfolio.astro';
 
 <section
 	id="portafolio"
-	class="flex flex-col w-full  justify-center items-center h-auto min-h-[100dvh]  "
+	class="portfolio"
 >
 	<div class="portfolio__container">
 		<Title contenido="Portfolio" />
@@ -24,6 +24,15 @@ import Card from './card-portfolio/CardPortfolio.astro';
 		flex-wrap: wrap;
 		gap: 4rem;
 	}
+	.portfolio__container 	 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    min-height: 100vh;
+}
 	
 	
 

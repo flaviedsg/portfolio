@@ -3,67 +3,63 @@
  * @typedef PortafolioData
  * @property {string} imgSrc Url de la imagen
  * @property {string} title Titulo de la tarjeta
- * @property {string[]} skills Array con tus habilidades ej: ['React', 'CSS', 'JavaScript']
  * @property {string} descripcion La descripcion de la tarjeta
- * @property {string} demoURL Url de una pagina de demostración
- * @property {string} repoURL Url del repositorio, ej: https://github.com/usuario/repo
+ * @property {string[]} tags Las habilidades que se requieren para el proyecto
  * @property {string} anim La animación que se ejecutará cuando se cargue la tarjeta, ej: fade-up, fade-right, fade-left, fade-down
  * @property {number} averageBrightness Cuanto brillo tendrá el color de fondo de la tarjeta, ej: 0.1
  */
 
 /**
- * @SofiDev Esto es JSDOC, si consideras que puede ser complicado solo borralo, es un comentario, no afectará en nada
+ 
  * @type {PortafolioData[]}
  */
 export const portafolioData = [
 	{
-		imgSrc: 'image.png',
+		imgSrc: 'dist/img/image.png',
 		title: 'Power BI trains partant en retards',
-		skills: ['React', 'StyledComponents'],
 		descripcion:
 		"J'ai créé un tableau de bord Power BI concernant les trains partant en retards, ce qui permet d'avoir une analyse direct et rapide des trains partant en retards.",
-		demoURL: '',
-		repoURL: '',
+		tags: ['Gérer le patrimoine informatique', 'Travailler en mode projet', 'Mettre à disposition des utilisateurs un service informatique'],
 		anim: 'fade-right',
+		
 	},
 	{
-		imgSrc: 'contrôleur.png',
+		imgSrc: 'dist/img/contrôleur.png',
 		title: 'Power BI\n pour le rapport mensuel des contrôleurs',
-		skills: ['JavaScript', 'Bootstrap'],
 		descripcion:
 			" J'ai mis en place un tableau de bord Power BI pour le rapport mensuel des contrôleurs, ce qui permet d’avoir une analyse direct et rapide des resulats contrôleurs.",
-		demoURL: '',
-		repoURL: '',
+		tags: ['Gérer le patrimoine informatique', 'Travailler en mode projet', 'Mettre à disposition des utilisateurs un service informatique'],
 		anim: 'fade-up',
-		averageBrightness: 0.1,
+		
 	},
 	{
-		imgSrc: 'Capture d’écran 2024-12-19 134624.png',
-		title: 'Création d\'un site Le bon koin',
-		skills: ['React', 'CSS'],
+		imgSrc: 'dist/img/site.png',
+		title: 'Création d\'un site de vente en ligne : Le bon koin',
+		tags: ['Travailler en mode projet', 'Développer la présence en ligne','Mettre à disposition des utilisateurs un service informatique'],
 		descripcion:
-			"Création d'un site web pour mon parcours scolaire. Ce site est un site similaire au bon coin, il permet de vendre et d'acheter des produits.",
+			"Création d'un site web pour mon parcours scolaire. Ce site est un site similaire au bon coin, il permet de vendre et d'acheter des produits. ",
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-left',
 		
 	},
 	{
-		imgSrc: 'black-background.png',
-		title: 'Création d\'une applcation pour téléphone',
-		skills: ['Power BI', 'Excel'],
+		imgSrc: 'dist/img/sport.png',
+		title: 'Création d\'une application de sport',
+		tags: ['Gérer le patrimoine informatique', 'Travailler en mode projet','Mettre à disposition des utilisateurs un service informatique'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'Création d\'une application de sport pour mon parcours scolaire. Cette application permet de suivre les activités sportives de l\'utilisateur et de programmer des séances de sport.',
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-left',
+		
 	},
 	{
-		imgSrc: 'User_Assistance_Illustration.png',
+		imgSrc: 'dist/img/User_Assistance_Illustration.png',
 		title: 'Asssistance informatique à mes collègues',
-		skills: [],
+		tags: ['Répondre aux incidents et aux demandes d’assistance et d’évolution'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
+			'Assistance informatique à mes collègues pour les aider à résoudre les problèmes informatiques qu\'ils rencontrent.',
 		demoURL: '',
 		repoURL: '',
 		anim: 'fade-left',
@@ -91,6 +87,6 @@ export const getPortafolioData = portafolioData.map((item) => {
 		// Se coloca todo el contenido previo del item
 		...item,
 		// Se cambian las skills por los iconos correspondientes
-		skills: item.skills.map((skill) => skillIcons[skill]),
+		
 	};
 });
