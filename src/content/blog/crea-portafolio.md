@@ -1,7 +1,7 @@
 ---
 title: "L'Intelligence artificielle au sein de le SNCF"
 pubDate: 'Janv 15 2025'
-heroImage: "img/sncf-group-gpt.png"
+heroImage: "/img/ia_sncf.png"
 ---
 
 ![image principale](/img/ia_sncf.png)
