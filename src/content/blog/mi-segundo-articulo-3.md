@@ -6,7 +6,7 @@ heroImage: "/img/ia_sncf.png"
 
 ---
 
-![javascript image](img/sncf-group-gpt.png)
+![javascript image](/img/sncf-group-gpt.png)
 
 ## Introduction à l'IA mondiale
 
