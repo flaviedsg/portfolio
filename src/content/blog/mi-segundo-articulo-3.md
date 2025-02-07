@@ -2,11 +2,11 @@
 title: "L'intelligence artificielle aussi présente dans les autres pays ?"
 
 pubDate: 'Dec 20 2024'
-heroImage: "../dist/img/ia_sncf.png"
+heroImage: "../public/img/ia_sncf.png"
 
 ---
 
-![javascript image](/dist/img/sncf-group-gpt.png)
+![javascript image](/public/img/sncf-group-gpt.png)
 
 ## Introduction à l'IA mondiale
 

@@ -15,7 +15,7 @@
  */
 export const portafolioData = [
 	{
-		imgSrc: 'dist/img/image.png',
+		imgSrc: 'public/img/image.png',
 		title: 'Power BI trains partant en retards',
 		descripcion:
 		"J'ai créé un tableau de bord Power BI concernant les trains partant en retards, ce qui permet d'avoir une analyse direct et rapide des trains partant en retards.",
@@ -24,7 +24,7 @@ export const portafolioData = [
 		
 	},
 	{
-		imgSrc: 'dist/img/contrôleur.png',
+		imgSrc: 'public/img/contrôleur.png',
 		title: 'Power BI\n pour le rapport mensuel des contrôleurs',
 		descripcion:
 			" J'ai mis en place un tableau de bord Power BI pour le rapport mensuel des contrôleurs, ce qui permet d’avoir une analyse direct et rapide des resulats contrôleurs.",
@@ -33,7 +33,7 @@ export const portafolioData = [
 		
 	},
 	{
-		imgSrc: 'dist/img/site.png',
+		imgSrc: 'public/img/site.png',
 		title: 'Création d\'un site de vente en ligne : Le bon koin',
 		tags: ['Travailler en mode projet', 'Développer la présence en ligne','Mettre à disposition des utilisateurs un service informatique'],
 		descripcion:
@@ -44,7 +44,7 @@ export const portafolioData = [
 		
 	},
 	{
-		imgSrc: 'dist/img/sport.png',
+		imgSrc: 'public/img/sport.png',
 		title: 'Création d\'une application de sport',
 		tags: ['Gérer le patrimoine informatique', 'Travailler en mode projet','Mettre à disposition des utilisateurs un service informatique'],
 		descripcion:
@@ -55,7 +55,7 @@ export const portafolioData = [
 		
 	},
 	{
-		imgSrc: 'dist/img/User_Assistance_Illustration.png',
+		imgSrc: 'public/img/User_Assistance_Illustration.png',
 		title: 'Asssistance informatique à mes collègues',
 		tags: ['Répondre aux incidents et aux demandes d’assistance et d’évolution'],
 		descripcion:

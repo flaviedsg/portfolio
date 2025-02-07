@@ -1,10 +1,10 @@
 ---
 title: "L'Intelligence artificielle au sein de le SNCF"
 pubDate: 'Janv 15 2025'
-heroImage: "../dist/img/sncf-group-gpt.png"
+heroImage: "../public/img/sncf-group-gpt.png"
 ---
 
-![image principale](/dist/img/ia_sncf.png)
+![image principale](/public/img/ia_sncf.png)
 
 ## Comment l'IA est utilisée au seins de la SNCF ? Quels sont les outils ?
 
