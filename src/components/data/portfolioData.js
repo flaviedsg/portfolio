@@ -16,9 +16,9 @@
 export const portafolioData = [
 	{
 		imgSrc: 'img/image.png',
-		title: 'Power BI trains partant en retards',
+		title: 'Power BI trains partant en retard',
 		descripcion:
-		"J'ai créé un tableau de bord Power BI concernant les trains partant en retards, ce qui permet d'avoir une analyse direct et rapide des trains partant en retards.",
+		"J'ai créé un tableau de bord Power BI concernant les trains partant en retard, ce qui permet d'avoir une analyse directe et rapide des trains partant en retard.",
 		tags: ['Gérer le patrimoine informatique', 'Travailler en mode projet', 'Mettre à disposition des utilisateurs un service informatique'],
 		anim: 'fade-right',
 		
@@ -27,7 +27,7 @@ export const portafolioData = [
 		imgSrc: 'img/contrôleur.png',
 		title: 'Power BI\n pour le rapport mensuel des contrôleurs',
 		descripcion:
-			" J'ai mis en place un tableau de bord Power BI pour le rapport mensuel des contrôleurs, ce qui permet d’avoir une analyse direct et rapide des resulats contrôleurs.",
+			" J'ai mis en place un tableau de bord Power BI pour le rapport mensuel des contrôleurs, ce qui permet d’avoir une analyse directe et rapide des resultats contrôleurs.",
 		tags: ['Gérer le patrimoine informatique', 'Travailler en mode projet', 'Mettre à disposition des utilisateurs un service informatique'],
 		anim: 'fade-up',
 		
@@ -56,7 +56,7 @@ export const portafolioData = [
 	},
 	{
 		imgSrc: 'img/User_Assistance_Illustration.png',
-		title: 'Asssistance informatique à mes collègues',
+		title: 'Assistance informatique à mes collègues',
 		tags: ['Répondre aux incidents et aux demandes d’assistance et d’évolution'],
 		descripcion:
 			'Assistance informatique à mes collègues pour les aider à résoudre les problèmes informatiques qu\'ils rencontrent.',
